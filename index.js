@@ -113,11 +113,16 @@ function Run() {
 }
 
 var lines = [
-    "Happy New Year!",
-    "May this year bring you joy, success, and all that your heart desires.",
-    "Embrace fresh starts, set new goals, and savor every moment.",
-    "Cheers to a journey of growth, laughter, and memorable experiences.",
-    "Wishing you all a fantastic year ahead!"
+    "Hello Ms Bey!",
+    "As of writing this code we've been talking together for already 181 days.",
+    "I just want to thank you for brightening up my year.",
+    "Your coming into my life is the best gift I've received this year.",
+    "I've genuinely like you!",
+    "You are very precious, so please always take care of yourself.",
+    "Have a nice year ahead.",
+    "Am always here for you!",
+    "Looking forward to a great year with you Bey!",
+    "Happy New Year!"
 ];
 
 var counter = 0;
@@ -128,7 +133,7 @@ function changeContent() {
         h1Element.innerHTML = lines[counter];
         counter++;
         console.log(counter); //10 is the final number
-        if(counter === 5){
+        if(counter === 10){
             Run();
         }
     }
